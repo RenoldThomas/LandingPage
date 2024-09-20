@@ -89,6 +89,11 @@ a {
     text-align: center;
 }
 
+.foxpictures {
+    border-radius: 5px;
+    border: 2px solid #3822f6;
+}
+
 .quote-section {
     display: flex;
     flex-direction: column;
