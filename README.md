@@ -35,7 +35,10 @@ This repository contains a complete landing page website built with HTML and CSS
 1. Clone this repository
 2. Open `index.html` in your browser to view the landing page
 3. Modify the content and styling as needed for your specific project
+4. Alternatively, access the deployed version at https://renoldthomas.github.io/LandingPage
+
+## Author
+Renold T (@renold)
 
 ## Credits
-
 This project was created as part of The Odin Project curriculum (2021).
