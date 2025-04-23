@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
+    <!-- The head contains important metadata and links to CSS -->
 </head>
 <body>
+    <!-- Header/Navigation Section -->
+    <!-- Uses flexbox for layout with logo on left and navigation links on right -->
     <div class="header">
         <div class="left-side">
-            <h4 id="headerlogotext">Header Logo</h4>
+            <h4 id="headerlogotext">Header Logo</h4> <!-- Main site logo/branding -->
         </div>
         <div class="right-side">
             <ul>
+                <!-- Navigation menu with three links -->
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
                 <li><a href="#">header link three</a></li>
@@ -21,36 +25,45 @@
         </div>
     </div>
 
+    <!-- Hero Banner Section -->
+    <!-- Two-column layout with text/CTA on left and image on right -->
     <div class="hero-header">
         <div class="hero-sub1">
-            <div id="heromaintext">This website is awesome</div>
+            <div id="heromaintext">This website is awesome</div> <!-- Main headline -->
             <div id="herosubtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is
-                lower contrast.</div>
-            <button>Sign up</button>
+                lower contrast.</div> <!-- Supporting text -->
+            <button>Sign up</button> <!-- Primary call-to-action button -->
         </div>
         <div class="hero-sub2">
+            <!-- Featured image - shows starry night scene -->
             <img src="./images/starrynight.jpg" alt="This is where an image goes" width="450px" height="auto">
         </div>
     </div>
 
+    <!-- Information Cards Section -->
+    <!-- Features a heading followed by four identical card components -->
     <div class="random-information">
-        <div class="random-info1">Some random information.</div>
+        <div class="random-info1">Some random information.</div> <!-- Section heading -->
         <div class="illustration-text-container">
+            <!-- First card - image with caption -->
             <div class="first-image">
                 <img class="foxpictures" src="./images/foxpicture.jpg" alt="This is where an image goes" width="150px" height="150px">
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
 
+            <!-- Second card - image with caption -->
             <div class="second-image">
                 <img class="foxpictures" src="./images/foxpicture.jpg" alt="This is where an image goes" width="150px" height="150px">
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
 
+            <!-- Third card - image with caption -->
             <div class="third-image">
                 <img class="foxpictures" src="./images/foxpicture.jpg" alt="This is where an image goes" width="150px" height="150px">
                 <div class="text">this is some subtext under an illustration or image</div>
             </div>
 
+            <!-- Fourth card - image with caption -->
             <div class="fourth-image">
                 <img class="foxpictures" src="./images/foxpicture.jpg" alt="This is where an image goes" width="150px" height="150px">
                 <div class="text">this is some subtext under an illustration or image</div>
@@ -58,22 +71,28 @@
         </div>
     </div>
 
+    <!-- Quote/Testimonial Section -->
+    <!-- Contains a quote with attribution in a distinct styled background -->
     <div class="quote-section">
         <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up
             space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div class="speaker">-Thor, God of Thunder</div>
+        <div class="speaker">-Thor, God of Thunder</div> <!-- Quote attribution -->
     </div>
 
+    <!-- Call-to-Action Banner Section -->
+    <!-- Blue banner with text and signup button -->
     <div class="action-section">
         <div class="action-info-container">
             <div class="action-info">
-                <strong><div>Call to action! It's time!</div></strong>
-                <div id="actionsubtext">Sign up for our product by clicking that button right over there!</div>
+                <strong><div>Call to action! It's time!</div></strong> <!-- CTA headline -->
+                <div id="actionsubtext">Sign up for our product by clicking that button right over there!</div> <!-- CTA description -->
             </div>
-            <button id="actionbutton">Sign up</button>
+            <button id="actionbutton">Sign up</button> <!-- Secondary CTA button with border styling -->
         </div>
     </div>
 
+    <!-- Footer Section -->
+    <!-- Simple footer with copyright information -->
     <div class="footer">
         <div>Copyright @ The Odin Project 2021</div>
     </div>

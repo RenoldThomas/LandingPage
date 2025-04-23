@@ -1,120 +1,148 @@
+/* Base Page Styling */
+/* Sets up the overall page layout as a vertical flex container with no margin */
 body {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black; /* Adds border around entire page */
+    margin: 0px; /* Removes default margin */
+    font-family: Arial, Helvetica, sans-serif; /* Sets consistent font throughout */
 }
 
+/* Shared Dark Background Color */
+/* Applied to header, hero section and footer for consistent theme */
 .header,
 .hero-header,
 .footer {
-    background-color: #1F2937;
+    background-color: #1F2937; /* Dark blue/gray color */
 }
 
+/* Header Navigation Styling */
+/* Creates horizontal layout with space between logo and navigation links */
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around; /* Creates space between logo and nav */
+    align-items: center; /* Vertically centers items */
 }
 
+/* Logo Text Styling */
 #headerlogotext {
     font-size: 24px;
-    color: #f9faf8;
+    color: #f9faf8; /* Light color for contrast against dark background */
 }
 
+/* Navigation Link List Styling */
+/* Removes bullets and arranges links horizontally */
 ul {
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
+    list-style-type: none; /* Removes default bullet points */
+    display: flex; /* Creates horizontal arrangement */
+    gap: 16px; /* Adds space between links */
 }
 
+/* Link Styling */
 a {
-    text-decoration: none;
-    color: #e5e7eb;
+    text-decoration: none; /* Removes underlines */
+    color: #e5e7eb; /* Light gray for contrast against dark background */
 }
 
+/* Hero Banner Section Styling */
+/* Creates two-column layout for headline and image */
 .hero-header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px;  
-    gap: 20px;
+    gap: 20px; /* Space between text and image columns */
 }
 
+/* Sets consistent width for both hero section columns */
 .hero-sub1,
 .hero-sub2 {
-    width: 450px;;
+    width: 450px;
 }
 
+/* Text Column in Hero Section */
+/* Arranges text elements vertically */
 .hero-sub1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: fit-content;
-    gap: 5px;
+    gap: 5px; /* Small gap between text elements */
 }
 
+/* Hero Main Heading Styling */
 #heromaintext {
     font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
+    color: #f9faf8; /* Very light color for maximum contrast */
+    font-weight: 900; /* Extra bold text */
 }
 
+/* Hero Secondary Text Styling */
 #herosubtext {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5e7eb; /* Slightly darker than main heading for visual hierarchy */
 }
 
+/* Information Section Heading */
 .random-info1 {
     font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+    color: #1F2937; /* Dark color for contrast against light background */
+    font-weight: 900; /* Extra bold text */
     text-align: center;
     padding: 24px;
 }
 
+/* Information Cards Container */
+/* Arranges the four image/text cards horizontally */
 .illustration-text-container {
     display: flex;
-    gap: 52px;
-    justify-content: center;
-    padding-bottom: 64px;
+    gap: 52px; /* Generous spacing between cards */
+    justify-content: center; /* Centers cards horizontally */
+    padding-bottom: 64px; /* Adds space below the cards section */
 }
 
+/* Individual Card Styling */
+/* Each card has consistent width and centered text */
 .first-image,
 .second-image,
 .third-image,
 .fourth-image {
-    width: 150px;
-    text-align: center;
+    width: 150px; /* Fixed width for consistent layout */
+    text-align: center; /* Centers the caption text */
 }
 
+/* Image Styling for Cards */
 .foxpictures {
-    border-radius: 5px;
-    border: 2px solid #3822f6;
+    border-radius: 5px; /* Slightly rounded corners */
+    border: 2px solid #3822f6; /* Blue border around images */
 }
 
+/* Quote Section Styling */
+/* Creates a distinct background with generous padding */
 .quote-section {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
-    padding: 100px 300px;
+    background-color: #e5e7eb; /* Light gray background */
+    padding: 100px 300px; /* Large padding for emphasis */
 }
 
+/* Quote Text Styling */
 .quote {
     font-size: 36px;
-    font-style: italic;
+    font-style: italic; /* Italicized quote text */
     color: #1F2937;
-    font-weight: lighter ;
-    
+    font-weight: lighter; /* Light font weight for elegant appearance */
 }
 
+/* Quote Attribution Styling */
 .speaker {
     color: #1F2937;
-    font-weight:bold;
-    margin-left: auto;
+    font-weight: bold; /* Bold text for contrast with quote */
+    margin-left: auto; /* Pushes attribution to right side */
 }
 
+/* Call-to-Action Section Styling */
+/* Creates spacing around the CTA banner */
 .action-section {
     display: flex;
     padding: 75px;
@@ -122,42 +150,51 @@ a {
     align-items: center;
 }
 
+/* CTA Banner Container */
+/* Creates blue banner with rounded corners */
 .action-info-container {
-    background-color: #3882F6;
-    border-radius: 5px;
+    background-color: #3882F6; /* Bright blue background */
+    border-radius: 5px; /* Rounded corners */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Separates text and button */
     align-items: center;
     padding: 16px;
-    color: white;
+    color: white; /* White text for contrast */
     height: 50px;
-    width: 750px;
+    width: 750px; /* Fixed width */
 }
 
+/* CTA Secondary Text Styling */
 #actionsubtext {
-    color: #e5e7eb;
-    font-size: 12px;
+    color: #e5e7eb; /* Slightly darker than white for hierarchy */
+    font-size: 12px; /* Smaller text size */
 }
 
+/* Footer Styling */
+/* Creates centered text in the dark footer area */
 .footer {
-    color: #e5e7eb;
+    color: #e5e7eb; /* Light text on dark background */
     display: flex;
-    font-size: 14px;;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
     padding: 24px;
 }
 
+/* Standard Button Styling */
+/* Used for the hero section button */
 button {
     width: 100px;
-    background-color: #3882F6;
+    background-color: #3882F6; /* Bright blue */
     color: white;
     padding: 5px;
-    border-radius: 5px;
-    border: none;
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
 }
 
+/* CTA Button Styling */
+/* Adds white border to the CTA button for distinction */
 #actionbutton {
-    border: 1px solid white;
-    background-color: transparent;
+    border: 1px solid white; /* White border */
+    background-color: transparent; /* Inherits blue background */
 }
